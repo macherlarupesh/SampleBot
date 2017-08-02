@@ -63,6 +63,11 @@ bot.dialog('contact',require('./contact'))
         matches: [/help/i, /support/i, /problem/i]
     });
 
+server.get(/.*/, restify.serveStatic({
+	'directory': '.',
+	'default': 'index.html'
+}));
+
 // log any bot errors into the console
 bot.on('error', function (e) {
     console.log('And error ocurred', e);
