@@ -1,0 +1,15 @@
+{
+  "name": "coursebot",
+  "version": "1.0.0",
+  "description": "display available courses in our college",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.9.0",
+    "restify": "^5.0.1"
+  }
+}
